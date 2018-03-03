@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b003f17-763e-4654-84c1-4955f2868760" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/logInFeature/chromedriver.exe" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/features/steps/logIn.py" afterPath="$PROJECT_DIR$/features/steps/logIn.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,9 +14,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Behave$environment.coverage" NAME="environment Coverage Results" MODIFIED="1519247141715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
-    <SUITE FILE_PATH="coverage/Behave$logIn.coverage" NAME="logIn Coverage Results" MODIFIED="1519740162432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/Behave$logIn.coverage" NAME="logIn Coverage Results" MODIFIED="1520107684515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/Behave$logIn_feature.coverage" NAME="logIn.feature Coverage Results" MODIFIED="1519491802560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Behave$logIn_feature_User_login.coverage" NAME="logIn.feature:User login Coverage Results" MODIFIED="1519814989911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Behave$logIn_feature_User_login.coverage" NAME="logIn.feature:User login Coverage Results" MODIFIED="1520107693488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Behave$py_test_in_LoginFeature_py.coverage" NAME="py.test in LoginFeature.py Coverage Results" MODIFIED="1520101715269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logInFeature" />
   </component>
   <component name="FileEditorManager">
@@ -31,19 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginFeature.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logInFeature/LoginFeature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logIn.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logIn.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/logIn.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -56,8 +44,8 @@
       <file leaf-file-name="logIn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/steps/logIn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="47" column="66" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="66" />
+            <state relative-caret-position="357">
+              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -158,7 +146,13 @@
             <path>
               <item name="Behave" type="b2602c69:ProjectViewProjectNode" />
               <item name="Behave" type="462c0819:PsiDirectoryNode" />
-              <item name="logInFeature" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Behave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Behave" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in LoginFeature.py">
+  <component name="RunManager" selected="Behave.logIn.feature:User login">
     <configuration name="logIn.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,9 +279,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in LoginFeature.py" />
-        <item index="1" class="java.lang.String" itemvalue="Behave.logIn.feature:User login" />
-        <item index="2" class="java.lang.String" itemvalue="Python.logIn" />
+        <item index="0" class="java.lang.String" itemvalue="Behave.logIn.feature:User login" />
+        <item index="1" class="java.lang.String" itemvalue="Python.logIn" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in LoginFeature.py" />
         <item index="3" class="java.lang.String" itemvalue="Behave.logIn.feature" />
         <item index="4" class="java.lang.String" itemvalue="Python.environment" />
       </list>
@@ -310,12 +304,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="logIn_feature_User_login - 2018.02.25 at 16h 00m 52s.xml">
-      <configuration name="logIn.feature:User login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="logIn_feature_User_login - 2018.02.25 at 16h 05m 14s.xml">
-      <configuration name="logIn.feature:User login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
     <history-entry file="logIn_feature_User_login - 2018.02.27 at 11h 27m 45s.xml">
       <configuration name="logIn.feature:User login" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
@@ -334,6 +322,12 @@
     <history-entry file="logIn_feature_User_login - 2018.02.28 at 11h 51m 07s.xml">
       <configuration name="logIn.feature:User login" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
+    <history-entry file="logIn_feature_User_login - 2018.03.03 at 21h 02m 18s.xml">
+      <configuration name="logIn.feature:User login" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="logIn_feature_User_login - 2018.03.03 at 21h 09m 18s.xml">
+      <configuration name="logIn.feature:User login" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
     <history-entry file="py_test_in_LoginFeature_py - 2018.03.03 at 19h 27m 39s.xml">
       <configuration name="py.test in LoginFeature.py" configurationId="tests" />
     </history-entry>
@@ -346,11 +340,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6395806" sideWeight="0.253125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.263125" sideWeight="0.746875" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14625" sideWeight="0.746875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.201875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.201875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -693,22 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/logIn.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/logIn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="47" column="66" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/environment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -720,10 +698,26 @@
     <entry file="file://$PROJECT_DIR$/logInFeature/LoginFeature.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/logIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/logIn.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

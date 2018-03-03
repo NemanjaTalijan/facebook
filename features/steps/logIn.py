@@ -31,7 +31,7 @@ def step(context):
     loginButton = None
     try:
         loginButton = WebDriverWait(context.browser, 5).until(
-        EC.presence_of_element_located((By.ID, 'u_0_2'))
+        EC.presence_of_element_located((By.XPATH, '//*[@id="u_0_2"]'))
         )
     except TimeoutException:
         print('NoSuchElementFound!')
