@@ -1,3 +1,4 @@
 # facebook
 Automation Testing Facebook Features (python)
-- Test automation scripts are on the DEVELOP branch.
+- Test are created using Behave BDD python style
+- NOTE: Test automation scripts are on the DEVELOP branch.
